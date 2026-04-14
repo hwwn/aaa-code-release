@@ -63,6 +63,7 @@ Grab the latest release for your platform from the [Releases](https://github.com
 Sponsors get a Pro license key that unlocks:
 
 - **Plugin System** — Use Claude Code skills (superpowers, frontend-design, code-review, etc.) directly in AAA Code via slash commands. Your installed CLI plugins just work.
+- **Conversation Rename** — Double-click any session in the conversation tree to rename it. No more guessing which session is which.
 - **Priority Support** — Issues and feature requests handled with higher priority.
 - **Early Access** — New features before they're released to everyone.
 
