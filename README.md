@@ -58,16 +58,27 @@ Grab the latest release for your platform from the [Releases](https://github.com
 - [Node.js](https://nodejs.org/) 22+
 - An [Anthropic API key](https://console.anthropic.com/) or Claude CLI already configured
 
+## Pro Features
+
+Sponsors get a Pro license key that unlocks:
+
+- **Plugin System** — Use Claude Code skills (superpowers, frontend-design, code-review, etc.) directly in AAA Code via slash commands. Your installed CLI plugins just work.
+- **Priority Support** — Issues and feature requests handled with higher priority.
+- **Early Access** — New features before they're released to everyone.
+
+More Pro features will ship over time. Existing sponsors get everything automatically.
+
 ## Sponsor
 
-AAA Code is free. All features, no paywalls (for now).
+AAA Code is free to use. Core features have no paywalls.
 
-If it saves you time or sanity, consider [sponsoring](https://github.com/sponsors/hwwn). Sponsors get a Pro license key that unlocks future premium features as they ship.
+If it saves you time or sanity, consider a one-time [sponsorship](https://github.com/sponsors/hwwn). You'll get a permanent Pro license key.
 
-| Tier | Monthly | What You Get |
-|------|---------|-------------|
-| Supporter | $5 | Pro License Key |
-| Backer | $10 | Pro License Key + Credits on the site |
+| Tier | Price | What You Get |
+|------|-------|-------------|
+| Supporter | $5 one-time | Pro License Key |
+| Backer | $10 one-time | Pro License Key + Credits on the site |
+| Champion | $15 one-time | Pro License Key + Credits + Priority Issues |
 
 ## Issues & Feedback
 
