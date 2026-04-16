@@ -6,6 +6,7 @@
 
 A full desktop client for Claude Code that wraps the Agent SDK<br>with everything the CLI should have had.
 
+[![Website](https://img.shields.io/badge/Website-aaa--code--site.vercel.app-7c5bf5?style=for-the-badge&logo=vercel)](https://aaa-code-site.vercel.app/)
 [![Download](https://img.shields.io/badge/Download-Latest_Release-7c5bf5?style=for-the-badge&logo=github)](https://github.com/hwwn/aaa-code-release/releases)
 [![Sponsor](https://img.shields.io/badge/Sponsor-hwwn-ea4aaa?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/hwwn)
 [![Platform](https://img.shields.io/badge/macOS_|_Windows_|_Linux-333?style=for-the-badge)](https://github.com/hwwn/aaa-code-release/releases)
