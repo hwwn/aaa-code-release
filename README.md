@@ -35,7 +35,11 @@ So I built [claude-notify-everywhere](https://github.com/hwwn/claude-notify-ever
 
 Start a task on your desktop, walk away. Check progress from your phone. Approve a permission request from the couch. Same WiFi or tunnel it through the internet — zero setup on the mobile side.
 
+<div align="center">
+<br>
 <img src="https://aaa-code-site.vercel.app/remote-screenshot.png" alt="Remote access settings with Cloudflare tunnel" width="680">
+<br><br>
+</div>
 
 <video src="https://aaa-code-site.vercel.app/aaa-remote-demo.mp4" width="100%" autoplay loop muted></video>
 
@@ -43,7 +47,11 @@ Start a task on your desktop, walk away. Check progress from your phone. Approve
 
 Claude Code locks you into one working directory. AAA Code lets you throw multiple project directories into the same conversation. *"Hey Claude, look at the API in repo A and the frontend in repo B and make them talk to each other."*
 
+<div align="center">
+<br>
 <img src="https://aaa-code-site.vercel.app/workspace-screenshot.png" alt="Multi-workspace selection panel" width="680">
+<br><br>
+</div>
 
 <video src="https://aaa-code-site.vercel.app/aaa-workspace-demo.mp4" width="100%" autoplay loop muted></video>
 
@@ -57,13 +65,21 @@ Three messages in, Claude takes a wrong turn. In the CLI, you're stuck restartin
 
 See your entire conversation history at a glance. Resume any session right where you left off, or delete the ones you no longer need. Branches, forks, continuations — everything stays organized.
 
+<div align="center">
+<br>
 <img src="https://aaa-code-site.vercel.app/session-screenshot.png" alt="Session history with resume and delete" width="680">
+<br><br>
+</div>
 
 ### ⚡ Full CLI Capabilities, in a GUI
 
 Streaming responses, tool use, permission dialogs, MCP server integrations — it's all there. Use the same `/slash` commands from the CLI directly in the GUI. You're gaining a visual layer on top without losing anything.
 
+<div align="center">
+<br>
 <img src="https://aaa-code-site.vercel.app/cli-screenshot.png" alt="CLI capabilities with slash commands in the GUI" width="680">
+<br><br>
+</div>
 
 <video src="https://aaa-code-site.vercel.app/aaa-cli-demo.mp4" width="100%" autoplay loop muted></video>
 
@@ -71,7 +87,11 @@ Streaming responses, tool use, permission dialogs, MCP server integrations — i
 
 Switch between multiple visual themes to personalize your workspace. Dark, light, and everything in between.
 
+<div align="center">
+<br>
 <img src="https://aaa-code-site.vercel.app/theme-screenshot.png" alt="Theme and settings panel with light mode" width="680">
+<br><br>
+</div>
 
 <video src="https://aaa-code-site.vercel.app/aaa-theme-demo.mp4" width="100%" autoplay loop muted></video>
 
@@ -126,7 +146,11 @@ More Pro features ship over time. Existing sponsors get everything automatically
 
 ## Sponsor
 
+<div align="center">
+<br>
 <img src="https://aaa-code-site.vercel.app/sponsor-preview.png" alt="AAA Code sponsor dialog" width="680">
+<br><br>
+</div>
 
 AAA Code is free to use. Core features have no paywalls.
 
