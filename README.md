@@ -12,6 +12,12 @@ A full desktop client for Claude Code that wraps the Agent SDK<br>with everythin
 
 </div>
 
+<div align="center">
+<br>
+<img src="https://aaa-code-site.vercel.app/sponsor-preview.png" alt="AAA Code interface" width="680">
+<br><br>
+</div>
+
 ---
 
 Claude Code is amazing. It's also kind of a pain.
@@ -28,21 +34,31 @@ So I built [claude-notify-everywhere](https://github.com/hwwn/claude-notify-ever
 
 Start a task on your desktop, walk away. Check progress from your phone. Approve a permission request from the couch. Same WiFi or tunnel it through the internet — zero setup on the mobile side.
 
+<video src="https://aaa-code-site.vercel.app/aaa-remote-demo.mp4" width="100%" autoplay loop muted></video>
+
 ### 📂 Multiple Projects as Context
 
 Claude Code locks you into one working directory. AAA Code lets you throw multiple project directories into the same conversation. *"Hey Claude, look at the API in repo A and the frontend in repo B and make them talk to each other."*
+
+<video src="https://aaa-code-site.vercel.app/aaa-workspace-demo.mp4" width="100%" autoplay loop muted></video>
 
 ### 🌿 Fork Any Conversation Node
 
 Three messages in, Claude takes a wrong turn. In the CLI, you're stuck restarting or awkwardly correcting course. In AAA Code, right-click any node in the session tree, fork it, and explore a different path. Keep the original. Branch like git, but for conversations.
 
+<video src="https://aaa-code-site.vercel.app/aaa-demo-fork.mp4" width="100%" autoplay loop muted></video>
+
 ### ⚡ Full CLI Capabilities, in a GUI
 
 Streaming responses, tool use, permission dialogs, MCP server integrations — it's all there. Use the same `/slash` commands from the CLI directly in the GUI. You're gaining a visual layer on top without losing anything.
 
+<video src="https://aaa-code-site.vercel.app/aaa-cli-demo.mp4" width="100%" autoplay loop muted></video>
+
 ### 🎨 Themes & Customization
 
 Switch between multiple visual themes to personalize your workspace. Dark, light, and everything in between.
+
+<video src="https://aaa-code-site.vercel.app/aaa-theme-demo.mp4" width="100%" autoplay loop muted></video>
 
 ## Features
 
