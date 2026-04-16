@@ -43,6 +43,8 @@ Start a task on your desktop, walk away. Check progress from your phone. Approve
 
 Claude Code locks you into one working directory. AAA Code lets you throw multiple project directories into the same conversation. *"Hey Claude, look at the API in repo A and the frontend in repo B and make them talk to each other."*
 
+<img src="https://aaa-code-site.vercel.app/workspace-screenshot.png" alt="Multi-workspace selection panel" width="680">
+
 <video src="https://aaa-code-site.vercel.app/aaa-workspace-demo.mp4" width="100%" autoplay loop muted></video>
 
 ### 🌿 Fork Any Conversation Node
@@ -60,6 +62,8 @@ Streaming responses, tool use, permission dialogs, MCP server integrations — i
 ### 🎨 Themes & Customization
 
 Switch between multiple visual themes to personalize your workspace. Dark, light, and everything in between.
+
+<img src="https://aaa-code-site.vercel.app/theme-screenshot.png" alt="Theme and settings panel with light mode" width="680">
 
 <video src="https://aaa-code-site.vercel.app/aaa-theme-demo.mp4" width="100%" autoplay loop muted></video>
 
