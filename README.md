@@ -53,9 +53,17 @@ Three messages in, Claude takes a wrong turn. In the CLI, you're stuck restartin
 
 <video src="https://aaa-code-site.vercel.app/aaa-demo-fork.mp4" width="100%" autoplay loop muted></video>
 
+### 🌳 Session Management
+
+See your entire conversation history at a glance. Resume any session right where you left off, or delete the ones you no longer need. Branches, forks, continuations — everything stays organized.
+
+<img src="https://aaa-code-site.vercel.app/session-screenshot.png" alt="Session history with resume and delete" width="680">
+
 ### ⚡ Full CLI Capabilities, in a GUI
 
 Streaming responses, tool use, permission dialogs, MCP server integrations — it's all there. Use the same `/slash` commands from the CLI directly in the GUI. You're gaining a visual layer on top without losing anything.
+
+<img src="https://aaa-code-site.vercel.app/cli-screenshot.png" alt="CLI capabilities with slash commands in the GUI" width="680">
 
 <video src="https://aaa-code-site.vercel.app/aaa-cli-demo.mp4" width="100%" autoplay loop muted></video>
 
@@ -73,7 +81,7 @@ Switch between multiple visual themes to personalize your workspace. Dark, light
 |---------|-------------|
 | **Multi-Workspace** | Multiple project directories in one conversation |
 | **Remote Access** | Phone/tablet access via local WiFi or Cloudflare tunnel |
-| **Session Tree** | Visual conversation history with fork/branch support |
+| **Session Tree** | Visual conversation history — resume, delete, fork, and branch |
 | **Permission Bridge** | Approve tool use and answer elicitations from any device |
 | **Theme System** | Purple, Orange, Rainbow — light and dark mode |
 | **Storage Management** | Monitor and clean up conversation history |
