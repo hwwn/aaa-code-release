@@ -15,7 +15,7 @@ A full desktop client for Claude Code that wraps the Agent SDK<br>with everythin
 
 <div align="center">
 <br>
-<img src="https://aaa-code-site.vercel.app/sponsor-preview.png" alt="AAA Code interface" width="680">
+<img src="https://aaa-code-site.vercel.app/hero-screenshot.png" alt="AAA Code — multi-workspace conversation" width="680">
 <br><br>
 </div>
 
@@ -34,6 +34,8 @@ So I built [claude-notify-everywhere](https://github.com/hwwn/claude-notify-ever
 ### 🎮 Remote Control Your Projects
 
 Start a task on your desktop, walk away. Check progress from your phone. Approve a permission request from the couch. Same WiFi or tunnel it through the internet — zero setup on the mobile side.
+
+<img src="https://aaa-code-site.vercel.app/remote-screenshot.png" alt="Remote access settings with Cloudflare tunnel" width="680">
 
 <video src="https://aaa-code-site.vercel.app/aaa-remote-demo.mp4" width="100%" autoplay loop muted></video>
 
@@ -111,6 +113,8 @@ Sponsors get a Pro license key that unlocks:
 More Pro features ship over time. Existing sponsors get everything automatically.
 
 ## Sponsor
+
+<img src="https://aaa-code-site.vercel.app/sponsor-preview.png" alt="AAA Code sponsor dialog" width="680">
 
 AAA Code is free to use. Core features have no paywalls.
 
