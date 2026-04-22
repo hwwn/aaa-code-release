@@ -6,9 +6,9 @@
 
 A full desktop client for Claude Code that wraps the Agent SDK<br>with everything the CLI should have had.
 
-[![Website](https://img.shields.io/badge/Website-aaa--code--site.vercel.app-7c5bf5?style=for-the-badge&logo=vercel)](https://aaa-code-site.vercel.app/)
+[![Website](https://img.shields.io/badge/Website-aaa--code.vercel.app-7c5bf5?style=for-the-badge&logo=vercel)](https://aaa-code.vercel.app/)
 [![Download](https://img.shields.io/badge/Download-Latest_Release-7c5bf5?style=for-the-badge&logo=github)](https://github.com/hwwn/aaa-code-release/releases)
-[![Sponsor](https://img.shields.io/badge/Sponsor-hwwn-ea4aaa?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/hwwn)
+[![Pricing](https://img.shields.io/badge/Pricing-From_$5-7c5bf5?style=for-the-badge)](https://aaa-code.vercel.app/#pricing)
 [![Platform](https://img.shields.io/badge/macOS_|_Windows_|_Linux-333?style=for-the-badge)](https://github.com/hwwn/aaa-code-release/releases)
 
 </div>
@@ -133,34 +133,36 @@ Grab the latest release from the **[Releases](https://github.com/hwwn/aaa-code-r
 | **May — Late** | 🧠 **Cross-Conversation Memory** — Claude remembers context across sessions. Preferences, decisions, and project history carry forward automatically. |
 | **June** | 🗳️ **You decide** — [Open an issue](https://github.com/hwwn/aaa-code-release/issues) and tell us what you need most. |
 
-## Pro Features
-
-Sponsors get a Pro license key that unlocks:
-
-- **Plugin System** — Use Claude Code skills (superpowers, frontend-design, code-review, etc.) directly via slash commands. Your installed CLI plugins just work.
-- **Conversation Rename** — Double-click any session in the conversation tree to rename it.
-- **Priority Support** — Issues and feature requests handled first.
-- **Early Access** — New features before public release.
-
-More Pro features ship over time. Existing sponsors get everything automatically.
-
-## Sponsor
+## Pricing
 
 <div align="center">
 <br>
-<img src="https://aaa-code-site.vercel.app/sponsor-preview.png" alt="AAA Code sponsor dialog" width="680">
+<img src="https://aaa-code.vercel.app/sponsor-preview.png" alt="AAA Code pricing dialog showing Member, VIP, and VVIP tiers" width="680">
 <br><br>
 </div>
 
-AAA Code is free to use. Core features have no paywalls.
-
-If it saves you time or sanity, consider a one-time [sponsorship](https://github.com/sponsors/hwwn). You'll get a permanent Pro license key.
+AAA Code is free to try for 7 days. A one-time purchase unlocks continued use and lifetime updates.
 
 | Tier | Price | What You Get |
 |------|-------|-------------|
-| **Supporter** | $5 one-time | Pro License Key |
-| **Backer** | $10 one-time | Pro License Key + Credits on the site |
-| **Champion** | $15 one-time | Pro License Key + Credits + Priority Issues |
+| **AAA Code Member** | $5 one-time | All core features + lifetime updates |
+| **AAA Code VIP Member** | $10 one-time | Everything in Member + all premium features (Plugin System, Conversation Rename, Early Access) |
+| **AAA Code VVIP Member** | $15 one-time | Everything in VIP + priority handling of feature requests and direct email support |
+
+Pick a plan on the [**Pricing page**](https://aaa-code.vercel.app/#pricing). Payments are processed by Lemon Squeezy as Merchant of Record; your license key arrives by email and activates instantly in the app (Settings → License).
+
+### Premium Features (VIP+)
+
+- **Plugin System** — Use Claude Code skills (superpowers, frontend-design, code-review, etc.) directly via slash commands. Your installed CLI plugins just work.
+- **Conversation Rename** — Double-click any session in the conversation tree to rename it.
+- **Early Access** — New features before public release.
+
+### VVIP Only
+
+- **Priority Feature Requests** — Your feature requests and support tickets handled first.
+- **Direct Email Support** — Reach us directly instead of going through the public issue tracker.
+
+More premium features ship over time. Existing customers at each tier get everything automatically within their tier.
 
 ## Issues & Feedback
 
