@@ -164,6 +164,20 @@ Pick a plan on the [**Pricing page**](https://aaa-code.vercel.app/#pricing). Pay
 
 More premium features ship over time. Existing customers at each tier get everything automatically within their tier.
 
+## Supported providers
+
+Connect aaa-code to your preferred LLM backend in **Settings → Providers**.
+
+| Provider | What you need | Zero-config path |
+|---|---|---|
+| Anthropic direct | API key or Claude Code CLI login | Run `claude login` once |
+| DeepSeek / Zhipu / Kimi / MiniMax | API key from each provider | Settings → Providers → preset |
+| Self-hosted proxy (LiteLLM, etc.) | Base URL + API key | Settings → Providers → custom |
+| AWS Bedrock | AWS credentials + region | `~/.aws/credentials` auto-detected |
+| Google Vertex | GCP project + ADC | `gcloud auth application-default login` |
+
+See the full guide: https://aaa-code.vercel.app/guides/providers
+
 ## Issues & Feedback
 
 Something broken? Have a feature idea? **[Open an issue](https://github.com/hwwn/aaa-code-release/issues)** — bug reports and feature requests are both welcome. This is the best way to shape what gets built next.
