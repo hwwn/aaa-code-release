@@ -6,16 +6,16 @@
 
 A full desktop client for Claude Code that wraps the Agent SDK<br>with everything the CLI should have had.
 
-[![Website](https://img.shields.io/badge/Website-aaa--code.vercel.app-7c5bf5?style=for-the-badge&logo=vercel)](https://aaa-code.vercel.app/)
+[![Website](https://img.shields.io/badge/Website-aaa--code.app-7c5bf5?style=for-the-badge&logo=vercel)](https://aaa-code.app/)
 [![Download](https://img.shields.io/badge/Download-Latest_Release-7c5bf5?style=for-the-badge&logo=github)](https://github.com/hwwn/aaa-code-release/releases)
-[![Pricing](https://img.shields.io/badge/Pricing-From_$5-7c5bf5?style=for-the-badge)](https://aaa-code.vercel.app/#pricing)
+[![Pricing](https://img.shields.io/badge/Pricing-From_$5-7c5bf5?style=for-the-badge)](https://aaa-code.app/#pricing)
 [![Platform](https://img.shields.io/badge/macOS_|_Windows_|_Linux-333?style=for-the-badge)](https://github.com/hwwn/aaa-code-release/releases)
 
 </div>
 
 <div align="center">
 <br>
-<img src="https://aaa-code-site.vercel.app/hero-screenshot.png" alt="AAA Code — multi-workspace conversation" width="680">
+<img src="https://aaa-code.app/hero-screenshot.png" alt="AAA Code — multi-workspace conversation" width="680">
 <br><br>
 </div>
 
@@ -37,11 +37,11 @@ Start a task on your desktop, walk away. Check progress from your phone. Approve
 
 <div align="center">
 <br>
-<img src="https://aaa-code-site.vercel.app/remote-screenshot.png" alt="Remote access settings with Cloudflare tunnel" width="680">
+<img src="https://aaa-code.app/remote-screenshot.png" alt="Remote access settings with Cloudflare tunnel" width="680">
 <br><br>
 </div>
 
-<video src="https://aaa-code-site.vercel.app/aaa-remote-demo.mp4" width="100%" autoplay loop muted></video>
+<video src="https://aaa-code.app/aaa-remote-demo.mp4" width="100%" autoplay loop muted></video>
 
 ### 📂 Multiple Projects as Context
 
@@ -49,17 +49,17 @@ Claude Code locks you into one working directory. AAA Code lets you throw multip
 
 <div align="center">
 <br>
-<img src="https://aaa-code-site.vercel.app/workspace-screenshot.png" alt="Multi-workspace selection panel" width="680">
+<img src="https://aaa-code.app/workspace-screenshot.png" alt="Multi-workspace selection panel" width="680">
 <br><br>
 </div>
 
-<video src="https://aaa-code-site.vercel.app/aaa-workspace-demo.mp4" width="100%" autoplay loop muted></video>
+<video src="https://aaa-code.app/aaa-workspace-demo.mp4" width="100%" autoplay loop muted></video>
 
 ### 🌿 Fork Any Conversation Node
 
 Three messages in, Claude takes a wrong turn. In the CLI, you're stuck restarting or awkwardly correcting course. In AAA Code, right-click any node in the session tree, fork it, and explore a different path. Keep the original. Branch like git, but for conversations.
 
-<video src="https://aaa-code-site.vercel.app/aaa-demo-fork.mp4" width="100%" autoplay loop muted></video>
+<video src="https://aaa-code.app/aaa-demo-fork.mp4" width="100%" autoplay loop muted></video>
 
 ### 🌳 Session Management
 
@@ -67,7 +67,7 @@ See your entire conversation history at a glance. Resume any session right where
 
 <div align="center">
 <br>
-<img src="https://aaa-code-site.vercel.app/session-screenshot.png" alt="Session history with resume and delete" width="680">
+<img src="https://aaa-code.app/session-screenshot.png" alt="Session history with resume and delete" width="680">
 <br><br>
 </div>
 
@@ -77,11 +77,11 @@ Streaming responses, tool use, permission dialogs, MCP server integrations — i
 
 <div align="center">
 <br>
-<img src="https://aaa-code-site.vercel.app/cli-screenshot.png" alt="CLI capabilities with slash commands in the GUI" width="680">
+<img src="https://aaa-code.app/cli-screenshot.png" alt="CLI capabilities with slash commands in the GUI" width="680">
 <br><br>
 </div>
 
-<video src="https://aaa-code-site.vercel.app/aaa-cli-demo.mp4" width="100%" autoplay loop muted></video>
+<video src="https://aaa-code.app/aaa-cli-demo.mp4" width="100%" autoplay loop muted></video>
 
 ### 🎨 Themes & Customization
 
@@ -89,11 +89,11 @@ Switch between multiple visual themes to personalize your workspace. Dark, light
 
 <div align="center">
 <br>
-<img src="https://aaa-code-site.vercel.app/theme-screenshot.png" alt="Theme and settings panel with light mode" width="680">
+<img src="https://aaa-code.app/theme-screenshot.png" alt="Theme and settings panel with light mode" width="680">
 <br><br>
 </div>
 
-<video src="https://aaa-code-site.vercel.app/aaa-theme-demo.mp4" width="100%" autoplay loop muted></video>
+<video src="https://aaa-code.app/aaa-theme-demo.mp4" width="100%" autoplay loop muted></video>
 
 ## Features
 
@@ -137,7 +137,7 @@ Grab the latest release from the **[Releases](https://github.com/hwwn/aaa-code-r
 
 <div align="center">
 <br>
-<img src="https://aaa-code.vercel.app/sponsor-preview.png" alt="AAA Code pricing dialog showing Member, VIP, and VVIP tiers" width="680">
+<img src="https://aaa-code.app/sponsor-preview.png" alt="AAA Code pricing dialog showing Member, VIP, and VVIP tiers" width="680">
 <br><br>
 </div>
 
@@ -149,7 +149,7 @@ AAA Code is free to try for 7 days. A one-time purchase unlocks continued use an
 | **AAA Code VIP Member** | $10 one-time | Everything in Member + all premium features (Plugin System, Conversation Rename, Early Access) |
 | **AAA Code VVIP Member** | $15 one-time | Everything in VIP + priority handling of feature requests and direct email support |
 
-Pick a plan on the [**Pricing page**](https://aaa-code.vercel.app/#pricing). Payments are processed by Lemon Squeezy as Merchant of Record; your license key arrives by email and activates instantly in the app (Settings → License).
+Pick a plan on the [**Pricing page**](https://aaa-code.app/#pricing). Payments are processed by Lemon Squeezy as Merchant of Record; your license key arrives by email and activates instantly in the app (Settings → License).
 
 ### Premium Features (VIP+)
 
@@ -176,7 +176,7 @@ Connect aaa-code to your preferred LLM backend in **Settings → Providers**.
 | AWS Bedrock | AWS credentials + region | `~/.aws/credentials` auto-detected |
 | Google Vertex | GCP project + ADC | `gcloud auth application-default login` |
 
-See the full guide: https://aaa-code.vercel.app/guides/providers
+See the full guide: https://aaa-code.app/guides/providers
 
 ## Issues & Feedback
 
