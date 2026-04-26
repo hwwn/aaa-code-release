@@ -43,6 +43,18 @@ Start a task on your desktop, walk away. Check progress from your phone. Approve
 
 <video src="https://aaa-code.app/aaa-remote-demo.mp4" width="100%" autoplay loop muted></video>
 
+### 🔌 Bring Your Own LLM
+
+Anthropic direct, DeepSeek, Zhipu, Kimi, MiniMax, AWS Bedrock, Google Vertex — or point at your own LiteLLM proxy. Configure once in **Settings → Providers**, then switch per session or globally for new chats. Your keys stay on-device; we never see your traffic.
+
+<div align="center">
+<br>
+<img src="https://aaa-code.app/provider-screenshot.png" alt="Provider selection panel with Anthropic, DeepSeek, Bedrock and Vertex options" width="680">
+<br><br>
+</div>
+
+<video src="https://aaa-code.app/aaa-provider-demo.mp4" width="100%" autoplay loop muted></video>
+
 ### 📂 Multiple Projects as Context
 
 Claude Code locks you into one working directory. AAA Code lets you throw multiple project directories into the same conversation. *"Hey Claude, look at the API in repo A and the frontend in repo B and make them talk to each other."*
@@ -60,6 +72,18 @@ Claude Code locks you into one working directory. AAA Code lets you throw multip
 Three messages in, Claude takes a wrong turn. In the CLI, you're stuck restarting or awkwardly correcting course. In AAA Code, right-click any node in the session tree, fork it, and explore a different path. Keep the original. Branch like git, but for conversations.
 
 <video src="https://aaa-code.app/aaa-demo-fork.mp4" width="100%" autoplay loop muted></video>
+
+### ⏰ Scheduled Tasks _(VIP+)_
+
+Daily standup reports, nightly refactors, weekly dependency checks — Claude does the work while you're asleep. Type `/schedule` in any session to put it on cron, or open the Scheduled tab to wire one up directly. Runs even when you walk away from the desk; results land in your session tree with a push notification on your phone.
+
+<div align="center">
+<br>
+<img src="https://aaa-code.app/scheduled-screenshot.png" alt="Scheduled tasks panel with cron presets and run history" width="680">
+<br><br>
+</div>
+
+<video src="https://aaa-code.app/aaa-scheduled-demo.mp4" width="100%" autoplay loop muted></video>
 
 ### 🌳 Session Management
 
@@ -83,13 +107,13 @@ Streaming responses, tool use, permission dialogs, MCP server integrations — i
 
 <video src="https://aaa-code.app/aaa-cli-demo.mp4" width="100%" autoplay loop muted></video>
 
-### 🎨 Themes & Customization
+### 🎨 Settings & Customization
 
-Switch between multiple visual themes to personalize your workspace. Dark, light, and everything in between.
+One unified panel — theme (Purple / Orange / Rainbow, light or dark), default permission mode, providers, license activation, and remote-access tokens with copy-paste and QR. Everything you can configure lives in one place; no scattered preferences windows.
 
 <div align="center">
 <br>
-<img src="https://aaa-code.app/theme-screenshot.png" alt="Theme and settings panel with light mode" width="680">
+<img src="https://aaa-code.app/theme-screenshot.png" alt="Unified Settings panel — theme picker, permission mode, providers, license, remote access" width="680">
 <br><br>
 </div>
 
@@ -100,7 +124,9 @@ Switch between multiple visual themes to personalize your workspace. Dark, light
 | Feature | Description |
 |---------|-------------|
 | **Multi-Workspace** | Multiple project directories in one conversation |
+| **Multi-Provider** | Anthropic / DeepSeek / Zhipu / Kimi / MiniMax / Bedrock / Vertex / custom proxy |
 | **Remote Access** | Phone/tablet access via local WiFi or Cloudflare tunnel |
+| **Scheduled Tasks** | Run Claude on cron — daily, weekly, or one-shot (VIP+) |
 | **Session Tree** | Visual conversation history — resume, delete, fork, and branch |
 | **Permission Bridge** | Approve tool use and answer elicitations from any device |
 | **Theme System** | Purple, Orange, Rainbow — light and dark mode |
@@ -146,7 +172,7 @@ AAA Code is free to try for 7 days. A one-time purchase unlocks continued use an
 | Tier | Price | What You Get |
 |------|-------|-------------|
 | **AAA Code Member** | $5 one-time | All core features + lifetime updates |
-| **AAA Code VIP Member** | $10 one-time | Everything in Member + all premium features (Plugin System, Conversation Rename, Early Access) |
+| **AAA Code VIP Member** | $10 one-time | Everything in Member + all premium features (Plugin System, Scheduled Tasks, Conversation Rename, Early Access) |
 | **AAA Code VVIP Member** | $15 one-time | Everything in VIP + priority handling of feature requests and direct email support |
 
 Pick a plan on the [**Pricing page**](https://aaa-code.app/#pricing). Payments are processed by Lemon Squeezy as Merchant of Record; your license key arrives by email and activates instantly in the app (Settings → License).
@@ -154,6 +180,7 @@ Pick a plan on the [**Pricing page**](https://aaa-code.app/#pricing). Payments a
 ### Premium Features (VIP+)
 
 - **Plugin System** — Use Claude Code skills (superpowers, frontend-design, code-review, etc.) directly via slash commands. Your installed CLI plugins just work.
+- **Scheduled Tasks** — Run Claude on a cron schedule. Daily reports, nightly refactors, weekly check-ins — results land in your session tree with a phone notification.
 - **Conversation Rename** — Double-click any session in the conversation tree to rename it.
 - **Early Access** — New features before public release.
 
