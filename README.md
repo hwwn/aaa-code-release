@@ -71,6 +71,12 @@ Claude Code locks you into one working directory. AAA Code lets you throw multip
 
 Three messages in, Claude takes a wrong turn. In the CLI, you're stuck restarting or awkwardly correcting course. In AAA Code, right-click any node in the session tree, fork it, and explore a different path. Keep the original. Branch like git, but for conversations.
 
+<div align="center">
+<br>
+<img src="https://aaa-code.app/fork-screenshot.png" alt="Forking a conversation node in the session tree" width="680">
+<br><br>
+</div>
+
 <video src="https://aaa-code.app/aaa-demo-fork.mp4" width="100%" autoplay loop muted></video>
 
 ### ⏰ Scheduled Tasks _(VIP+)_
