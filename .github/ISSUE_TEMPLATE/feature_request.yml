@@ -1,0 +1,86 @@
+name: ✨ Feature request
+description: Suggest a new capability or an improvement to AAA Code.
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. The most useful feature requests describe a **real workflow** you're trying to do — even more than they describe a specific UI.
+
+        > 💎 **VVIP members** get priority on feature requests. Mention your tier below if applicable.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Before you file
+      options:
+        - label: I [searched existing issues](https://github.com/hwwn/aaa-code-release/issues?q=is%3Aissue) and didn't find a duplicate or similar request.
+          required: true
+        - label: This is genuinely about AAA Code (not about Claude Code itself or upstream Anthropic features).
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the problem?
+      description: |
+        What are you trying to do today, and what's painful about it? **Skip the solution for now** — describe the friction.
+      placeholder: |
+        When I'm working across two projects, I currently have to ... and that means ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How would you like AAA Code to behave?
+      placeholder: |
+        I'd like a button / shortcut / setting that ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Workarounds you've already tried, or other tools that solve this differently.
+      placeholder: |
+        I've tried doing X with Y, but ...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Where does this fit?
+      options:
+        - Remote / Mobile
+        - Multi-CWD / Workspaces
+        - Sessions / Forking
+        - Providers / API keys
+        - Themes / UI
+        - Scheduling
+        - CLI + GUI parity
+        - Settings / preferences
+        - Other (explain in description)
+    validations:
+      required: true
+
+  - type: input
+    id: tier
+    attributes:
+      label: Plan tier (optional)
+      description: VVIP requests are prioritized. Free / Member / VIP requests are still very welcome — just be aware of queue order.
+      placeholder: Free / Member / VIP / VVIP
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Mockups, screenshots from other apps, links, half-formed thoughts — all welcome.
+    validations:
+      required: false

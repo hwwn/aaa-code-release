@@ -1,0 +1,125 @@
+name: 🐛 Bug report
+description: Something is broken or behaving unexpectedly in AAA Code.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report. The more concrete this is, the faster it gets fixed.
+
+        > 🔒 If this is a **security** issue (data leak, RCE, auth bypass, anything that puts user keys/data at risk), **please do not file it here**. Use [private vulnerability reporting](https://github.com/hwwn/aaa-code-release/security/advisories/new) instead.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Before you file
+      options:
+        - label: I'm running the **latest release** from the [Releases page](https://github.com/hwwn/aaa-code-release/releases).
+          required: true
+        - label: I [searched existing issues](https://github.com/hwwn/aaa-code-release/issues?q=is%3Aissue) and didn't find a duplicate.
+          required: true
+        - label: This is **not** a security vulnerability (if it is, I'll close this and use private reporting).
+          required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: AAA Code version
+      description: Find it in `Settings → About`, or copy the release tag you downloaded.
+      placeholder: e.g. 0.4.5
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Windows 11
+        - Windows 10
+        - Linux (.AppImage)
+        - Linux (.deb)
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: OS version
+      placeholder: e.g. macOS 15.3, Windows 11 23H2, Ubuntu 24.04
+    validations:
+      required: true
+
+  - type: dropdown
+    id: provider
+    attributes:
+      label: LLM provider being used
+      description: Which provider was active when the bug happened?
+      options:
+        - Anthropic (direct)
+        - DeepSeek
+        - Zhipu
+        - Kimi (Moonshot)
+        - MiniMax
+        - AWS Bedrock
+        - Google Vertex
+        - LiteLLM proxy / custom endpoint
+        - Not provider-related
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: A clear, concise description of the bug. Screenshots / screen recordings welcome (drag-and-drop into the box).
+      placeholder: |
+        I clicked X, expected Y, but Z happened instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps so we can hit the same thing on our end.
+      placeholder: |
+        1. Open AAA Code
+        2. Go to ...
+        3. Click ...
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: I expected Claude to ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / console output
+      description: |
+        Paste any relevant log lines or stack traces. **Redact API keys, tokens, and personal data first.**
+        On macOS: `~/Library/Logs/AAA Code/`. On Windows: `%APPDATA%/AAA Code/logs/`. On Linux: `~/.config/AAA Code/logs/`.
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: tier
+    attributes:
+      label: Plan tier (optional)
+      description: If you're a paid user, mentioning your tier helps us prioritize.
+      placeholder: Free / Member / VIP / VVIP
+    validations:
+      required: false

@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/hwwn/aaa-code-release/security/advisories/new
+    about: Please use the private vulnerability reporting flow — do NOT open a public issue for security problems.
+  - name: 📖 Provider setup guide
+    url: https://aaa-code.app/guides/providers
+    about: Configuring Anthropic, DeepSeek, Zhipu, Kimi, MiniMax, Bedrock, Vertex, or LiteLLM as your LLM backend.
+  - name: 🌐 Website & download
+    url: https://aaa-code.app
+    about: Latest release, screenshots, pricing, and what makes AAA Code different.
+  - name: 💎 Pricing & tiers
+    url: https://aaa-code.app/#pricing
+    about: Member / VIP / VVIP — VVIP includes priority on feature requests and direct email support.
