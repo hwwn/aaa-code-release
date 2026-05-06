@@ -113,6 +113,28 @@ Streaming responses, tool use, permission dialogs, MCP server integrations — i
 
 <video src="https://aaa-code.app/aaa-cli-demo.mp4" width="100%" autoplay loop muted></video>
 
+### 🖼️ Drag-and-Drop Images
+
+Paste or drag images straight into the composer — bug screenshots, mockups, error dialogs, hand-drawn diagrams. Claude reads them inline alongside your prompt; no file upload, no tool call dance, no hosting step.
+
+<div align="center">
+<br>
+<img src="https://aaa-code.app/images-screenshot.png" alt="Composer with two image thumbnails attached and a question about diffs" width="680">
+<br><br>
+</div>
+
+### 🛡️ Permission Modes
+
+Pick how aggressively Claude can act without asking:
+
+- **Default** — every tool use prompts for approval (the CLI's standard).
+- **Accept Edits** — file edits go through automatically; everything else still asks.
+- **Auto** — file edits AND shell commands run without a prompt; only sub-agent spawns (`Task`) and explicit kill-switches still ask. One step short of full bypass — convenient when you trust the run, safer than the nuclear option.
+- **Bypass Permissions** — the nuclear option; no prompts at all. Use when you really mean it.
+- **Plan** — read-only; refuses any tool that would mutate state.
+
+Switch the mode globally from Settings or per-session from the chat dropdown next to the model selector.
+
 ### 🎨 Settings & Customization
 
 One unified panel — theme (Purple / Orange / Rainbow, light or dark), default permission mode, providers, license activation, and remote-access tokens with copy-paste and QR. Everything you can configure lives in one place; no scattered preferences windows.
@@ -129,6 +151,7 @@ One unified panel — theme (Purple / Orange / Rainbow, light or dark), default 
 
 | Feature | Description |
 |---------|-------------|
+| **Composer Images** | Paste or drag screenshots, mockups, and diagrams directly into the prompt |
 | **Multi-Workspace** | Multiple project directories in one conversation |
 | **Multi-Provider** | Anthropic / DeepSeek / Zhipu / Kimi / MiniMax / Bedrock / Vertex / custom proxy |
 | **Remote Access** | Phone/tablet access via local WiFi or Cloudflare tunnel |
