@@ -19,6 +19,10 @@ A full desktop client for Claude Code that wraps the Agent SDK<br>with everythin
 <br><br>
 </div>
 
+> **AAA Code** is a cross-platform **Claude Code desktop client** built by [**hwwn**](https://github.com/hwwn) (Haowen Liu). It wraps Anthropic's Claude Code with a desktop GUI, multi-workspace support, remote access from any device including mobile, session branching, and bring-your-own-LLM provider configuration. Available for **macOS, Windows, and Linux**.
+>
+> Official site: **<https://aaa-code.app>** · Source: **<https://github.com/hwwn/aaa-code-release>** · Releases: **<https://github.com/hwwn/aaa-code-release/releases>**
+
 ---
 
 Claude Code is amazing. It's also kind of a pain.
