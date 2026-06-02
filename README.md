@@ -188,9 +188,9 @@ Grab the latest release from the **[Releases](https://github.com/hwwn/aaa-code-r
 
 | When | What |
 |------|------|
-| **May — Early** | 🎙️ **Voice Input** — Talk to Claude instead of typing. Dictate prompts, describe bugs, think out loud — hands-free. |
-| **May — Late** | 🧠 **Cross-Conversation Memory** — Claude remembers context across sessions. Preferences, decisions, and project history carry forward automatically. |
-| **June** | 🗳️ **You decide** — [Open an issue](https://github.com/hwwn/aaa-code-release/issues) and tell us what you need most. |
+| **June — Early** | 🎙️ **Voice Input** — Talk to Claude instead of typing. Dictate prompts, describe bugs, think out loud — hands-free. |
+| **June — Late** | 🧠 **Cross-Conversation Memory** — Claude remembers context across sessions. Preferences, decisions, and project history carry forward automatically. |
+| **July** | 🗳️ **You decide** — [Open an issue](https://github.com/hwwn/aaa-code-release/issues) and tell us what you need most. |
 
 ## Pricing
 
