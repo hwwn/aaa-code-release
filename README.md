@@ -173,8 +173,8 @@ Grab the latest release from the **[Releases](https://github.com/hwwn/aaa-code-r
 | Platform | Files |
 |----------|-------|
 | macOS (Apple Silicon / Intel) | `.dmg` |
-| Windows | `.msi` / `.exe` |
-| Linux | `.AppImage` / `.deb` |
+| Windows | `.exe` |
+| Linux | `.AppImage` |
 
 > [!NOTE]
 > Releases are currently unsigned. On macOS, right-click the app and select **Open** on first launch. On Windows, click **More info** → **Run anyway**.
@@ -182,7 +182,10 @@ Grab the latest release from the **[Releases](https://github.com/hwwn/aaa-code-r
 ### Requirements
 
 - [Node.js](https://nodejs.org/) 22+
-- An [Anthropic API key](https://console.anthropic.com/) or Claude CLI already configured
+- An Anthropic credential — an [API key](https://console.anthropic.com/) (Settings → Providers) or an existing `claude login`
+
+> [!TIP]
+> Since **v0.7.0** the chat runtime ships inside the app — no separate Claude Code installation needed. The installer is bigger (~200 MB), but it's download-and-go: open the app, add a workspace, start chatting.
 
 ## Roadmap
 
