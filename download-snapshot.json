@@ -1,10 +1,10 @@
 {
-  "snapshotAt": "2026-06-04T06:56:28.223Z",
-  "total": 325,
+  "snapshotAt": "2026-06-05T20:00:56.831Z",
+  "total": 384,
   "byPlatform": {
-    "macOS": 70,
-    "Windows": 239,
-    "Linux": 16
+    "macOS": 105,
+    "Windows": 262,
+    "Linux": 17
   },
-  "releaseCount": 11
+  "releaseCount": 13
 }
