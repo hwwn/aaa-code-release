@@ -199,22 +199,23 @@ Grab the latest release from the **[Releases](https://github.com/hwwn/aaa-code-r
 
 <div align="center">
 <br>
-<img src="https://aaa-code.app/sponsor-preview.png" alt="AAA Code pricing dialog showing Member, VIP, and VVIP tiers" width="680">
+<img src="https://aaa-code.app/sponsor-preview.png" alt="AAA Code pricing dialog showing Free, VIP, and VVIP tiers" width="680">
 <br><br>
 </div>
 
-AAA Code is free to try for 7 days. A one-time purchase unlocks continued use and lifetime updates.
+The basics are **free forever** — chat, sessions, workspaces, and mobile remote access never expire. Every new install also starts with a 7-day trial of all premium features; after that, a one-time purchase keeps premium unlocked for life.
 
 | Tier | Price | What You Get |
 |------|-------|-------------|
-| **AAA Code Member** | $5 one-time | All core features + lifetime updates |
-| **AAA Code VIP Member** | $10 one-time | Everything in Member + all premium features (Plugin System, Scheduled Tasks, Conversation Rename, Early Access) |
+| **Free** | $0 | All core features, free forever + free updates |
+| **AAA Code VIP Member** | $10 one-time | All premium features (Voice Dictation, Plugin System, Scheduled Tasks, Conversation Rename, Early Access) |
 | **AAA Code VVIP Member** | $15 one-time | Everything in VIP + priority handling of feature requests and direct email support |
 
 Pick a plan on the [**Pricing page**](https://aaa-code.app/#pricing). Payments are processed by Lemon Squeezy as Merchant of Record; your license key arrives by email and activates instantly in the app (Settings → License).
 
 ### Premium Features (VIP+)
 
+- **Voice Dictation** — Speak instead of type. Local on-device transcription (Chinese + English code-switching included); audio never leaves your machine.
 - **Plugin System** — Use Claude Code skills (superpowers, frontend-design, code-review, etc.) directly via slash commands. Your installed CLI plugins just work.
 - **Scheduled Tasks** — Run Claude on a cron schedule. Daily reports, nightly refactors, weekly check-ins — results land in your session tree with a phone notification.
 - **Conversation Rename** — Double-click any session in the conversation tree to rename it.
