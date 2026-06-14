@@ -215,7 +215,7 @@ Pick a plan on the [**Pricing page**](https://aaa-code.app/#pricing). Payments a
 
 ### Premium Features (VIP+)
 
-- **Voice Dictation** — Speak instead of type. Local on-device transcription (Chinese + English code-switching included); audio never leaves your machine.
+- **Voice Dictation** — Speak instead of type. Local on-device transcription with mixed-language recognition in a single sentence — Mandarin Chinese, Cantonese, English, Japanese, and Korean, freely combined. Goes beyond Claude Code's built-in `/voice`, which transcribes one language at a time and can't follow a sentence that switches languages mid-stream. Audio never leaves your machine.
 - **Plugin System** — Use Claude Code skills (superpowers, frontend-design, code-review, etc.) directly via slash commands. Your installed CLI plugins just work.
 - **Scheduled Tasks** — Run Claude on a cron schedule. Daily reports, nightly refactors, weekly check-ins — results land in your session tree with a phone notification.
 - **Conversation Rename** — Double-click any session in the conversation tree to rename it.
