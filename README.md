@@ -197,8 +197,8 @@ Each release ticks items off this list — the **Shipped** column shows the vers
 |:------:|---------|---------|
 | ✅ | 🎙️ **Voice Input** — talk to Claude instead of typing; on-device, mixed-language dictation (zh / ja / en / ko / yue) within a single sentence | **v0.8.0** |
 | ✅ | 🎯 **Session Goals** — a prioritized, drag-to-reorder list of standing objectives, injected into every turn so the agent stays on-target | **v0.9.0** |
-| 🛠️ | 📂 **File Preview & Diff** — browse your project files and review changed-file diffs without leaving the app | _building_ |
-| 🔭 | 🌐 **HTML & Browser Preview** — render generated HTML inline and preview your running app; click an element to feed it back as context | — |
+| 🛠️ | 📂 **File Preview + Diff** — browse your project files and review changed-file diffs without leaving the app | _building_ |
+| 🔭 | 🌐 **HTML + Browser Preview** — render generated HTML inline and preview your running app; click an element to feed it back as context | — |
 | 🔭 | ⌘ **Per-repo Spotlight** — a command palette scoped to the active repository | — |
 | 🔭 | ⌨️ **Built-in Terminal** — a real terminal panel inside the app, no window-switching | — |
 | 🔭 | 🌿 **Parallel Agents on Worktrees** — run multiple agents at once, each isolated on its own git worktree | — |
