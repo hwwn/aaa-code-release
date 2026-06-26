@@ -189,11 +189,23 @@ Grab the latest release from the **[Releases](https://github.com/hwwn/aaa-code-r
 
 ## Roadmap
 
-| When | What |
-|------|------|
-| **June — Early** | 🎙️ **Voice Input** — Talk to Claude instead of typing. Dictate prompts, describe bugs, think out loud — hands-free. |
-| **June — Late** | 🧠 **Cross-Conversation Memory** — Claude remembers context across sessions. Preferences, decisions, and project history carry forward automatically. |
-| **July** | 🗳️ **You decide** — [Open an issue](https://github.com/hwwn/aaa-code-release/issues) and tell us what you need most. |
+Each release ticks items off this list — the **Shipped** column shows the version that delivered each one.
+
+**Legend:** ✅ shipped · 🛠️ building now · 🔭 planned · 🎯 the goal
+
+| Status | Feature | Shipped |
+|:------:|---------|---------|
+| ✅ | 🎙️ **Voice Input** — talk to Claude instead of typing; on-device, mixed-language dictation (zh / ja / en / ko / yue) within a single sentence | **v0.8.0** |
+| ✅ | 🎯 **Session Goals** — a prioritized, drag-to-reorder list of standing objectives, injected into every turn so the agent stays on-target | **v0.9.0** |
+| 🛠️ | 📂 **File Preview & Diff** — browse your project files and review changed-file diffs without leaving the app | _building_ |
+| 🔭 | 🌐 **HTML & Browser Preview** — render generated HTML inline and preview your running app; click an element to feed it back as context | — |
+| 🔭 | ⌘ **Per-repo Spotlight** — a command palette scoped to the active repository | — |
+| 🔭 | ⌨️ **Built-in Terminal** — a real terminal panel inside the app, no window-switching | — |
+| 🔭 | 🌿 **Parallel Agents on Worktrees** — run multiple agents at once, each isolated on its own git worktree | — |
+| 🔭 | 🧠 **Cross-Conversation Memory** — context, preferences and decisions carry forward across sessions | _someday_ |
+| 🎯 | 🤝 **One app, every agent** — Claude · Codex · Cursor, all inside AAA Code, side by side | **by end of 2026** |
+
+> Want something bumped up? [Open an issue](https://github.com/hwwn/aaa-code-release/issues) and tell us what you need most.
 
 ## Pricing
 
